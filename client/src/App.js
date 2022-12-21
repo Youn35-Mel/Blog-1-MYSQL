@@ -8,7 +8,7 @@ import "./App.css";
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Write from "./pages/Write";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import Single from "./pages/Single";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
