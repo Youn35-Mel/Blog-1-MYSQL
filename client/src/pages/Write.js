@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactQuill from "react-quill";
+import "react-quill/dist/quill.snow.css";
 import "./Write.scss";
 // import "../style.scss";
 
@@ -14,12 +15,7 @@ const Write = () => {
           // onChange={(e) => setTitle(e.target.value)}
         />
         <div className="editorContainer">
-          <ReactQuill
-            className="editor"
-            theme="snow"
-            value={value}
-            onChange={setValue}
-          />
+          <ReactQuill theme="snow" value={value} onChange={setValue} />
         </div>
       </div>
       <div className="menu">
