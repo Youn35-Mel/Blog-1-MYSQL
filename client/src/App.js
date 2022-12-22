@@ -4,14 +4,15 @@ import {
   Route,
   Outlet,
 } from "react-router-dom";
-import "./App.css";
-import Register from "./pages/Register";
-import Login from "./pages/Login";
+// import "./App.css";
+import Register from "./pages/Register/Register";
+import Login from "./pages/Register/Login";
 import Write from "./pages/Write";
 import Home from "./pages/Home/Home";
 import Single from "./pages/Single";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import "./style.scss";
 
 const Layout = () => {
   return (
